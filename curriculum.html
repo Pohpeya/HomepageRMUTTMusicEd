@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -31,12 +30,12 @@ font-family:'Prompt',sans-serif;
 </div>
 
 <div class="hidden md:flex gap-8">
-<a href="index.html">Home</a>
-<a href="about.html">About Program</a>
+<a href="index.html" class="hover:text-yellow-400 transition">Home</a>
+<a href="about.html" class="hover:text-yellow-400 transition">About Program</a>
 <a href="curriculum.html" class="text-yellow-400">Curriculum</a>
-<a href="faculty.html">Faculty</a>
-<a href="news.html">News</a>
-<a href="contact.html">Contact</a>
+<a href="faculty.html" class="hover:text-yellow-400 transition">Faculty</a>
+<a href="news.html" class="hover:text-yellow-400 transition">News</a>
+<a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
 </div>
 
 </div>
@@ -64,140 +63,253 @@ Curriculum Mapping & Program Learning Outcomes
 <section class="py-20">
 <div class="max-w-7xl mx-auto px-6">
 
-<h2 class="text-4xl font-bold mb-2">
+<h2 class="text-4xl font-bold mb-2 text-slate-900">
 Curriculum Mapping Dashboard
 </h2>
 
 <div class="w-24 h-1 bg-yellow-500 mb-10"></div>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
 
-<div class="bg-white rounded-3xl shadow-xl p-6 text-center">
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
 <div class="text-4xl font-bold text-yellow-500">10</div>
-<div class="mt-2">PLO1 Courses</div>
+<div class="mt-2 text-slate-600 font-medium">PLO1 Courses</div>
 </div>
 
-<div class="bg-white rounded-3xl shadow-xl p-6 text-center">
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
 <div class="text-4xl font-bold text-yellow-500">15</div>
-<div class="mt-2">PLO2 Courses</div>
+<div class="mt-2 text-slate-600 font-medium">PLO2 Courses</div>
 </div>
 
-<div class="bg-white rounded-3xl shadow-xl p-6 text-center">
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
 <div class="text-4xl font-bold text-yellow-500">9</div>
-<div class="mt-2">PLO3 Courses</div>
+<div class="mt-2 text-slate-600 font-medium">PLO3 Courses</div>
 </div>
 
-<div class="bg-white rounded-3xl shadow-xl p-6 text-center">
-<div class="text-4xl font-bold text-yellow-500">16</div>
-<div class="mt-2">PLO4 Courses</div>
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
+<div class="text-4xl font-bold text-yellow-500">17</div>
+<div class="mt-2 text-slate-600 font-medium">PLO4 Courses</div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
+<div class="text-4xl font-bold text-yellow-500">11</div>
+<div class="mt-2 text-slate-600 font-medium">PLO5 Courses</div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
+<div class="text-4xl font-bold text-yellow-500">4</div>
+<div class="mt-2 text-slate-600 font-medium">PLO6 Courses</div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-lg p-6 text-center hover:-translate-y-1 transition duration-300 border border-slate-100">
+<div class="text-4xl font-bold text-yellow-500">25</div>
+<div class="mt-2 text-slate-600 font-medium">PLO7 Courses</div>
 </div>
 
 </div>
 
-<h2 class="text-4xl font-bold mb-2">
-Program Learning Outcomes Mapping
-</h2>
+<div class="space-y-6">
 
-<div class="w-24 h-1 bg-yellow-500 mb-10"></div>
-
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO1 : Knowledge and Understanding
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer" open>
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO1</h3>
+<p class="text-slate-600 font-medium mt-2">
+ใช้องค์ความรู้ ทักษะ และกระบวนการด้านดนตรีสากลเพื่อเป็นพื้นฐานในการเรียนรู้ ตลอดจนสามารถบูรณาการข้ามศาสตร์ </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+10 รายวิชา </span>
+</div>
 </summary>
-
-<ul class="list-disc pl-6 mt-4 space-y-1">
-<li>ดนตรีพื้นฐาน</li>
-<li>สุนทรียศาสตร์</li>
-<li>ทฤษฎีดนตรีตะวันตก</li>
-<li>ประวัติและวรรณคดีดนตรีตะวันตก</li>
-<li>การอ่านออกเสียงโน้ตและพัฒนาโสตประสาท</li>
-<li>หลักการประสานเสียง</li>
-<li>การเรียบเรียงเสียงประสาน</li>
-<li>คีตลักษณ์และการวิเคราะห์</li>
-<li>ดนตรีนานาชาติ</li>
-<li>การซ่อมแซมและบำรุงรักษาเครื่องดนตรี</li>
-</ul>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ดนตรีพื้นฐาน</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">สุนทรียศาสตร์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ทฤษฎีดนตรีตะวันตก</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ประวัติและวรรณคดีดนตรีตะวันตก</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การอ่านออกเสียงโน้ตและพัฒนาโสตประสาท</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">หลักการประสานเสียง</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การเรียบเรียงเสียงประสาน</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">คีตลักษณ์และการวิเคราะห์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ดนตรีนานาชาติ</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การซ่อมแซมและบำรุงรักษาเครื่องดนตรี</div>
+</div>
 </details>
 
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO2 : Music Performance Skills
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer">
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO2</h3>
+<p class="text-slate-600 font-medium mt-2">
+ปฏิบัติด้านดนตรีสากล ตลอดจนสามารถต่อยอดองค์ความรู้ร่วมกับเทคโนโลยีสมัยใหม่เพื่อนำไปสู่การแสดงผลงาน </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+15 รายวิชา </span>
+</div>
 </summary>
-
-<p class="mt-4">
-15 supporting courses
-</p>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การอ่านออกเสียงโน้ตและพัฒนาโสตประสาท</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">หลักการประสานเสียง</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การเรียบเรียงเสียงประสาน</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">ทักษะดนตรีตะวันตก 1-6 (6 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">การประพันธ์ดนตรีตะวันตก 1-2 (2 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การสร้างสรรค์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">เทคโนโลยีคอมพิวเตอร์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการพื้นฐานสำหรับงานสตูดิโอ</div>
+</div>
 </details>
 
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO3 : Creative and Analytical Thinking
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer">
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO3</h3>
+<p class="text-slate-600 font-medium mt-2">
+วิเคราะห์ สังเคราะห์ข้อมูล และเรียนรู้ศาสตร์สมัยใหม่เพื่อนำมาประยุกต์ ออกแบบ สร้างสรรค์ผลงานผ่านกระบวนการบริหารจัดการเชิงรุกด้านดนตรีสากล </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+9 รายวิชา </span>
+</div>
 </summary>
-
-<p class="mt-4">
-9 supporting courses
-</p>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">คีตลักษณ์และการวิเคราะห์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ดนตรีนานาชาติ</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">การประพันธ์ดนตรีตะวันตก 1-2 (2 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">โครงร่างศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการนวัตกรรมดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การสร้างสรรค์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการพื้นฐานสำหรับงานสตูดิโอ</div>
+</div>
 </details>
 
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO4 : Teaching Profession
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer">
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO4</h3>
+<p class="text-slate-600 font-medium mt-2">
+ประยุกต์ความรู้ด้านวิชาชีพตามการเปลี่ยนแปลงของโลก สู่การจัดการเรียนรู้ตามจรรยาบรรณวิชาชีพ </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+17 รายวิชา </span>
+</div>
 </summary>
-
-<p class="mt-4">
-16 supporting courses
-</p>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ดนตรีนานาชาติ</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">วิธีสอนและเทคนิคการสอนดนตรีตะวันตก</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">สัมมนาดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">นวัตศิลป์เพื่อชุมชน</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การสร้างสรรค์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">จิตวิทยาสำหรับครู</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">บริบททางการศึกษาและปรัชญาเศรษฐกิจพอเพียง</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การประกันคุณภาพการศึกษา</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การวัดและประเมินผลการเรียนรู้</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การวิจัยสำหรับวิชาชีพครู</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">นวัตกรรมการพัฒนาหลักสูตร</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">วิทยาการจัดการเรียนรู้</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">จรรยาบรรณและจิตวิญญาณความเป็นครู</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ภาษาและวัฒนธรรมสำหรับครู</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">สื่อและเทคโนโลยีเพื่อการเรียนรู้</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การฝึกปฏิบัติวิชาชีพระหว่างเรียน 3</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การปฏิบัติการสอนในสถานศึกษา</div>
+</div>
 </details>
 
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO5 : Research and Academic Communication
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer">
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO5</h3>
+<p class="text-slate-600 font-medium mt-2">
+ประยุกต์ใช้ความรู้และพัฒนางานดนตรีสากล สามารถสื่อสาร นำเสนอข้อมูลในรูปแบบผลงานทางวิชาการ เพื่อถ่ายทอดองค์ความรู้สู่ชุมชนและสังคม </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+11 รายวิชา </span>
+</div>
 </summary>
-
-<p class="mt-4">
-11 supporting courses
-</p>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">คีตลักษณ์และการวิเคราะห์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ดนตรีนานาชาติ</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">การประพันธ์ดนตรีตะวันตก 1-2 (2 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">โครงร่างศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการนวัตกรรมดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">สัมมนาดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">นวัตศิลป์เพื่อชุมชน</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การสร้างสรรค์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการพื้นฐานสำหรับงานสตูดิโอ</div>
+</div>
 </details>
 
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO6 : Community Engagement
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer">
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO6</h3>
+<p class="text-slate-600 font-medium mt-2">
+ปฏิบัติหน้าที่ครู และสร้างเสริมสัมพันธ์กับผู้ปกครองและชุมชน </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+4 รายวิชา </span>
+</div>
 </summary>
-
-<p class="mt-4">
-4 supporting courses
-</p>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">การฝึกปฏิบัติวิชาชีพระหว่างเรียน 1-3 (3 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การปฏิบัติการสอนในสถานศึกษา</div>
+</div>
 </details>
 
-<details class="bg-white rounded-3xl shadow-xl p-8 mb-5">
-<summary class="font-bold text-xl cursor-pointer">
-PLO7 : Ethics and Leadership
+<details class="group bg-white rounded-3xl shadow-lg border border-slate-100 p-8 cursor-pointer">
+<summary class="list-none">
+<div class="flex justify-between items-start md:items-center flex-col md:flex-row gap-4">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 group-hover:text-yellow-600 transition">PLO7</h3>
+<p class="text-slate-600 font-medium mt-2">
+แสดงตนเป็นครูตามจรรยาบรรณวิชาชีพ โดยตระหนักถึงจริตและขนบธรรมเนียมด้านดนตรีสากล เพื่อพัฒนาตนเองและเรียนรู้ตลอดชีวิต คิดสร้างสรรค์ แก้ปัญหา ทำงานแบบมีส่วนร่วม สื่อสารอย่างเหมาะสมตามภาวะการณ์ แสดงภาวะผู้นำ มีความรับผิดชอบ และเป็นแบบอย่างของผู้เรียน ชุมชน และสังคม </p>
+</div>
+<span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full font-medium whitespace-nowrap">
+25 รายวิชา </span>
+</div>
 </summary>
-
-<p class="mt-4">
-25 supporting courses
-</p>
-
+<div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-slate-700">
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">ทักษะดนตรีตะวันตก 1-6 (6 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">คีตลักษณ์และการวิเคราะห์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ดนตรีนานาชาติ</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การซ่อมแซมและบำรุงรักษาเครื่องดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">การประพันธ์ดนตรีตะวันตก 1-2 (2 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">โครงร่างศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">ศิลปนิพนธ์</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">วิธีสอนและเทคนิคการสอนดนตรีตะวันตก</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการนวัตกรรมดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">สัมมนาดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">นวัตศิลป์เพื่อชุมชน</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การสร้างสรรค์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">เทคโนโลยีคอมพิวเตอร์ดนตรี</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การบริหารจัดการพื้นฐานสำหรับงานสตูดิโอ</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">จรรยาบรรณและจิตวิญญาณความเป็นครู</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl font-medium text-slate-900">การฝึกปฏิบัติวิชาชีพระหว่างเรียน 1-3 (3 รายวิชา)</div>
+<div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">การปฏิบัติการสอนในสถานศึกษา</div>
+</div>
 </details>
 
+</div>
 </div>
 </section>
 
-<footer class="bg-slate-950 text-white py-10">
-<div class="max-w-7xl mx-auto px-6">
-<p class="font-bold">Western Music Education</p>
-<p class="text-gray-400">
-Faculty of Fine and Applied Arts
-</p>
+<footer class="bg-slate-950 py-10 mt-10">
+<div class="max-w-7xl mx-auto px-6 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
+<div>
+<p class="font-bold text-white text-lg">Western Music Education</p>
+<p class="text-gray-400 mt-1">Faculty of Fine and Applied Arts</p>
+</div>
+<div class="mt-4 md:mt-0 text-sm text-gray-500">
+&copy; 2026 Western Music Education. All rights reserved.
+</div>
 </div>
 </footer>
 
 </body>
 </html>
-```
