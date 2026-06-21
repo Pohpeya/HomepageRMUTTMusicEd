@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Western Music Education</title>
+    <title>Western Music Education - RMUTT</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -11,366 +11,333 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        body{
+        body {
             font-family: 'Prompt', sans-serif;
         }
 
-        .hero-bg{
+        .hero-bg {
             background:
-            linear-gradient(rgba(5,15,35,.75),rgba(5,15,35,.75)),
+            linear-gradient(rgba(5,15,35,.8),rgba(5,15,35,.8)),
             url('https://images.unsplash.com/photo-1511379938547-c1f69419868d');
-            background-size:cover;
-            background-position:center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
     </style>
 </head>
 
-<body class="bg-white">
-
-<!-- NAVBAR -->
+<body class="bg-slate-50">
 
 <nav class="fixed top-0 left-0 w-full bg-slate-950/95 backdrop-blur z-50 border-b border-yellow-700/20">
-
     <div class="max-w-7xl mx-auto px-6">
-
         <div class="flex justify-between items-center h-20">
-
             <div>
                 <h1 class="text-white font-bold text-lg">
                     Western Music Education
                 </h1>
-
                 <p class="text-yellow-400 text-sm">
                     Faculty of Fine and Applied Arts
                 </p>
             </div>
-
-            <div class="hidden md:flex gap-8 text-white">
-
-                <a href="index.html" class="hover:text-yellow-400">Home</a>
-                <a href="about.html" class="hover:text-yellow-400">About Program</a>
-                <a href="curriculum.html" class="hover:text-yellow-400">Curriculum</a>
-                <a href="faculty.html" class="hover:text-yellow-400">Faculty</a>
-                <a href="news.html" class="hover:text-yellow-400">News</a>
-                <a href="contact.html" class="hover:text-yellow-400">Contact</a>
-
+            <div class="hidden md:flex gap-8 text-white text-sm font-medium">
+                <a href="index.html" class="text-yellow-400">Home</a>
+                <a href="about.html" class="hover:text-yellow-400 transition">About Program</a>
+                <a href="curriculum.html" class="hover:text-yellow-400 transition">Curriculum</a>
+                <a href="faculty.html" class="hover:text-yellow-400 transition">Faculty</a>
+                <a href="news.html" class="hover:text-yellow-400 transition">News</a>
+                <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
             </div>
-
         </div>
-
     </div>
-
 </nav>
 
-<!-- HERO -->
-
 <section class="hero-bg min-h-screen flex items-center">
-
-    <div class="max-w-7xl mx-auto px-6">
-
-        <p class="uppercase tracking-[0.3em] text-yellow-400 mb-4">
+    <div class="max-w-7xl mx-auto px-6 pt-20">
+        <p class="uppercase tracking-[0.3em] text-yellow-400 mb-4 text-sm md:text-base font-semibold">
             Faculty of Fine and Applied Arts
         </p>
-
-        <h1 class="text-white text-5xl md:text-7xl font-bold leading-tight">
+        <h1 class="text-white text-5xl md:text-7xl font-bold leading-tight tracking-tight">
             WESTERN MUSIC<br>
-            EDUCATION
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">EDUCATION</span>
         </h1>
-
-        <p class="text-gray-200 text-xl mt-6 max-w-3xl">
-    Bachelor of Education Program in Western Music Education
-</p>
-
-<p class="text-yellow-300 mt-4 text-lg">
-    หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาดนตรีสากลศึกษา (4 ปี)
-</p>
-
-        <p class="text-gray-400 mt-3">
-            Rajamangala University of Technology Thanyaburi
-        </p>
-
-        <div class="mt-10 flex gap-4">
-
-            <a href="about.html"
-               class="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3 rounded-lg font-medium">
-                About Program
-            </a>
-
-            <a href="curriculum.html"
-               class="border border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-black transition">
-                Curriculum
-            </a>
-
+        
+        <div class="mt-8 border-l-4 border-yellow-400 pl-6">
+            <p class="text-gray-100 text-xl font-medium">
+                Bachelor of Education Program in Western Music Education
+            </p>
+            <p class="text-gray-300 mt-2 text-lg">
+                หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาดนตรีสากลศึกษา (4 ปี)
+            </p>
+            <p class="text-gray-400 mt-2 text-sm">
+                Rajamangala University of Technology Thanyaburi
+            </p>
         </div>
 
+        <div class="mt-12 flex flex-wrap gap-4">
+            <a href="#about" class="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3.5 rounded-full font-semibold transition shadow-lg shadow-yellow-500/30">
+                Explore Program
+            </a>
+            <a href="curriculum.html" class="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-3.5 rounded-full hover:bg-white hover:text-black transition font-semibold">
+                Curriculum Structure
+            </a>
+        </div>
     </div>
-
 </section>
 
-<!-- ABOUT -->
-
-<section class="py-24">
-
+<section id="about" class="py-24 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-
+        <div class="grid md:grid-cols-2 gap-16 items-center">
             <div>
-
-                <h2 class="text-4xl font-bold text-slate-900 mb-6">
+                <h2 class="text-4xl font-bold text-slate-900 mb-2">
                     About Program
                 </h2>
+                <h3 class="text-xl text-yellow-600 font-medium mb-8">เกี่ยวกับหลักสูตร</h3>
+                
+                <div class="space-y-6">
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        <strong class="text-slate-800">The Bachelor of Education Program in Western Music Education</strong> aims to cultivate graduates with profound musical expertise, pedagogical skills, and proficiency in music technology. We prepare our students to excel as music educators and professionals in related fields with utmost efficiency.
+                    </p>
+                    
+                    <p class="text-gray-500 leading-relaxed bg-slate-50 p-6 rounded-2xl border-l-4 border-slate-300">
+                        หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาดนตรีสากลศึกษา มุ่งผลิตบัณฑิตที่มีความรู้และทักษะด้านดนตรี การจัดการเรียนรู้ และเทคโนโลยีดนตรี เพื่อให้สามารถประกอบวิชาชีพครูดนตรีและวิชาชีพที่เกี่ยวข้อง ได้อย่างมีประสิทธิภาพและตอบโจทย์โลกยุคใหม่
+                    </p>
+                </div>
 
-                <p class="text-gray-600 leading-8">
-                    หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาดนตรีสากลศึกษา
-                    มุ่งผลิตบัณฑิตที่มีความรู้และทักษะด้านดนตรี
-                    การจัดการเรียนรู้ และเทคโนโลยีดนตรี
-                    สามารถประกอบวิชาชีพครูดนตรีและวิชาชีพที่เกี่ยวข้อง
-                    ได้อย่างมีประสิทธิภาพ
-                </p>
-
-                <a href="about.html"
-                   class="inline-block mt-6 text-yellow-600 font-medium">
-                    Read More →
+                <a href="about.html" class="inline-flex items-center gap-2 mt-8 text-slate-900 font-semibold hover:text-yellow-600 transition group">
+                    Read More Info 
+                    <span class="transform group-hover:translate-x-1 transition">→</span>
                 </a>
-
             </div>
 
+            <div class="relative">
+                <div class="absolute inset-0 bg-yellow-400 rounded-3xl transform translate-x-4 translate-y-4 -z-10"></div>
+                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81" class="rounded-3xl shadow-xl w-full object-cover h-[500px]">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-900 mb-3">Program Highlights</h2>
+            <p class="text-gray-500 text-lg">จุดเด่นของหลักสูตรดนตรีสากลศึกษา</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
+                <div class="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🎵</div>
+                <h3 class="font-bold text-xl text-slate-900 mb-1">Music Performance</h3>
+                <h4 class="text-sm font-medium text-yellow-600 mb-4">ทักษะการปฏิบัติเครื่องดนตรี</h4>
+                <p class="text-gray-500 text-sm mb-3">
+                    Develop exceptional skills in solo performance, musical ensembles, and professional stage performance.
+                </p>
+                <p class="text-gray-400 text-xs border-t pt-3">
+                    พัฒนาทักษะการบรรเลงเดี่ยว การรวมวงดนตรี และบุคลิกภาพการแสดงบนเวทีอย่างมืออาชีพ
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">📚</div>
+                <h3 class="font-bold text-xl text-slate-900 mb-1">Music Education</h3>
+                <h4 class="text-sm font-medium text-blue-600 mb-4">ศาสตร์การสอนดนตรี</h4>
+                <p class="text-gray-500 text-sm mb-3">
+                    Master modern pedagogy, learning management, and effective teaching methodologies in music.
+                </p>
+                <p class="text-gray-400 text-xs border-t pt-3">
+                    เจาะลึกศาสตร์การสอนดนตรี จิตวิทยา และการจัดการเรียนรู้เพื่อเตรียมพร้อมสู่การเป็นครูยุคใหม่
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
+                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🎧</div>
+                <h3 class="font-bold text-xl text-slate-900 mb-1">Music Technology</h3>
+                <h4 class="text-sm font-medium text-purple-600 mb-4">เทคโนโลยีดนตรี</h4>
+                <p class="text-gray-500 text-sm mb-3">
+                    Equip with practical skills in music production, sound recording, and digital media creation.
+                </p>
+                <p class="text-gray-400 text-xs border-t pt-3">
+                    เรียนรู้การประยุกต์ใช้เทคโนโลยีดนตรี โปรแกรมทำเพลง การบันทึกเสียง และสื่อดิจิทัลแบบครบวงจร
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🏫</div>
+                <h3 class="font-bold text-xl text-slate-900 mb-1">Professional Exp.</h3>
+                <h4 class="text-sm font-medium text-emerald-600 mb-4">ประสบการณ์วิชาชีพ</h4>
+                <p class="text-gray-500 text-sm mb-3">
+                    Gain hands-on teaching experience through intensive professional internship programs.
+                </p>
+                <p class="text-gray-400 text-xs border-t pt-3">
+                    สร้างเสริมประสบการณ์ตรงผ่านการฝึกปฏิบัติวิชาชีพและการฝึกสอนในสถานศึกษาจริง
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-slate-950 text-white py-24 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-yellow-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3"></div>
+
+    <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-end mb-16 gap-6">
             <div>
-                <img
-                    src="https://images.unsplash.com/photo-1516280440614-37939bbacd81"
-                    class="rounded-2xl shadow-xl">
+                <p class="text-yellow-400 font-medium tracking-wider mb-2 uppercase text-sm">Our Team</p>
+                <h2 class="text-4xl md:text-5xl font-bold">Faculty Members</h2>
             </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- HIGHLIGHTS -->
-
-<section class="bg-slate-50 py-24">
-
-    <div class="max-w-7xl mx-auto px-6">
-
-        <h2 class="text-4xl font-bold text-center mb-14">
-            Program Highlights
-        </h2>
-
-        <div class="grid md:grid-cols-4 gap-6">
-
-            <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
-                <h3 class="font-bold text-xl mb-4">Music Performance</h3>
-                <p class="text-gray-600">
-                    พัฒนาทักษะการบรรเลงเดี่ยว วงดนตรี และการแสดงบนเวที
-                </p>
-            </div>
-
-            <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
-                <h3 class="font-bold text-xl mb-4">Music Education</h3>
-                <p class="text-gray-600">
-                    ศาสตร์การสอนดนตรีและการจัดการเรียนรู้
-                </p>
-            </div>
-
-            <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
-                <h3 class="font-bold text-xl mb-4">Music Technology</h3>
-                <p class="text-gray-600">
-                    เทคโนโลยีดนตรี การบันทึกเสียง และสื่อดิจิทัล
-                </p>
-            </div>
-
-            <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
-                <h3 class="font-bold text-xl mb-4">Professional Experience</h3>
-                <p class="text-gray-600">
-                    ฝึกประสบการณ์วิชาชีพและการฝึกสอน
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- FACILITIES -->
-
-<section class="py-24">
-
-    <div class="max-w-7xl mx-auto px-6">
-
-        <div class="flex justify-between items-center mb-12">
-
-            <h2 class="text-4xl font-bold">
-                Facilities
-            </h2>
-
-            <a href="facilities.html"
-               class="text-yellow-600 font-medium">
-                View More →
+            <a href="faculty.html" class="text-white hover:text-yellow-400 transition flex items-center gap-2 pb-2">
+                View All Members <span class="text-xl">→</span>
             </a>
-
         </div>
 
-        <div class="grid md:grid-cols-4 gap-6">
-
-            <div class="bg-slate-900 text-white p-8 rounded-2xl">
-                Recording Studio
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="group relative overflow-hidden rounded-[2rem] aspect-[3/4] cursor-pointer lg:row-span-2 lg:aspect-auto">
+                <img src="อ.ดร.อนันท์พร เอี่ยมชาญบรรจง ประธานหลักสูตร.jpg" alt="อ.ดร.อนันท์พร เอี่ยมชาญบรรจง" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent opacity-90 transition duration-500 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 left-0 p-8 w-full transform transition duration-500 group-hover:-translate-y-2">
+                    <div class="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-lg">
+                        ประธานหลักสูตร (Program Chair)
+                    </div>
+                    <h3 class="text-white font-bold text-2xl mb-1">อ.ดร.อนันท์พร เอี่ยมชาญบรรจง</h3>
+                    <p class="text-gray-300 font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-4 group-hover:translate-y-0">
+                        Dr. Ananporn Iamchanbanjong
+                    </p>
+                </div>
             </div>
 
-            <div class="bg-slate-900 text-white p-8 rounded-2xl">
-                Practice Rooms
+            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+                <img src="ผศ.ดร.ถาวรดา จันทนะสุตร.jfif" alt="ผศ.ดร.ถาวรดา จันทนะสุตร" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
+                    <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
+                    <h3 class="text-white font-bold text-xl mb-1">ผศ.ดร.ถาวรดา จันทนะสุตร</h3>
+                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                        Asst. Prof. Dr. Thawarada Chantanasutr
+                    </p>
+                </div>
             </div>
 
-            <div class="bg-slate-900 text-white p-8 rounded-2xl">
-                Ensemble Room
+            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+                <img src="อ.ดร.เอกพล เหมือนแย้ม.jpg" alt="อ.ดร.เอกพล เหมือนแย้ม" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
+                    <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
+                    <h3 class="text-white font-bold text-xl mb-1">อ.ดร.เอกพล เหมือนแย้ม</h3>
+                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                        Dr. Ekkapol Muanyam
+                    </p>
+                </div>
             </div>
 
-            <div class="bg-slate-900 text-white p-8 rounded-2xl">
-                Computer Lab
+            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+                <img src="อ.ยุทธศักดิ์ พลายภู่.jpg" alt="อ.ยุทธศักดิ์ พลายภู่" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
+                    <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
+                    <h3 class="text-white font-bold text-xl mb-1">อ.ยุทธศักดิ์ พลายภู่</h3>
+                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                        Mr. Yuttasak Plaipoo
+                    </p>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+                <img src="อ.รัฐเขตต์ ช่วยสมบูรณ์.jpg" alt="อ.รัฐเขตต์ ช่วยสมบูรณ์" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
+                    <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
+                    <h3 class="text-white font-bold text-xl mb-1">อ.รัฐเขตต์ ช่วยสมบูรณ์</h3>
+                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                        Mr. Rattakhet Chuaysomboon
+                    </p>
+                </div>
             </div>
 
         </div>
-
     </div>
-
 </section>
 
-<!-- FACULTY -->
-
-<section class="bg-slate-950 text-white py-24">
-
+<section class="py-24 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-
-        <div class="flex justify-between items-center mb-12">
-
-            <h2 class="text-4xl font-bold">
-                Faculty Members
-            </h2>
-
-            <a href="faculty.html"
-               class="text-yellow-400">
-                View All →
-            </a>
-
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-            <div class="bg-slate-900 rounded-2xl p-8">
-                <h3 class="font-bold text-xl">
-                    Faculty Member
-                </h3>
-
-                <p class="text-gray-400 mt-2">
-                    Music Education
-                </p>
-            </div>
-
-            <div class="bg-slate-900 rounded-2xl p-8">
-                <h3 class="font-bold text-xl">
-                    Faculty Member
-                </h3>
-
-                <p class="text-gray-400 mt-2">
-                    Music Technology
-                </p>
-            </div>
-
-            <div class="bg-slate-900 rounded-2xl p-8">
-                <h3 class="font-bold text-xl">
-                    Faculty Member
-                </h3>
-
-                <p class="text-gray-400 mt-2">
-                    Performance Studies
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- NEWS -->
-
-<section class="py-24">
-
-    <div class="max-w-7xl mx-auto px-6">
-
-        <div class="flex justify-between items-center mb-12">
-
-            <h2 class="text-4xl font-bold">
+        <div class="flex flex-col sm:flex-row justify-between items-center mb-12 gap-4">
+            <h2 class="text-4xl font-bold text-slate-900">
                 News & Activities
             </h2>
-
-            <a href="news.html"
-               class="text-yellow-600">
-                View All →
+            <a href="news.html" class="text-slate-900 font-semibold hover:text-yellow-600 transition flex items-center gap-2">
+                View All News <span>→</span>
             </a>
-
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
-
-            <div class="border rounded-2xl p-6">
-                <h3 class="font-bold mb-3">
-                    News Title
+            <div class="group cursor-pointer">
+                <div class="w-full h-48 bg-slate-100 rounded-2xl mb-4 overflow-hidden">
+                    <div class="w-full h-full bg-slate-200 group-hover:scale-105 transition duration-500"></div>
+                </div>
+                <p class="text-yellow-600 text-sm font-medium mb-2">Announcement</p>
+                <h3 class="font-bold text-lg text-slate-900 mb-2 group-hover:text-yellow-600 transition">
+                    ข่าวสารการรับสมัครนักศึกษาใหม่
                 </h3>
-
-                <p class="text-gray-600">
-                    รายละเอียดข่าวสารและกิจกรรม
+                <p class="text-gray-500 text-sm line-clamp-2">
+                    รายละเอียดข่าวสารและกิจกรรมต่างๆ ที่เกี่ยวข้องกับการรับสมัครนักศึกษาใหม่ประจำปีการศึกษา
                 </p>
             </div>
 
-            <div class="border rounded-2xl p-6">
-                <h3 class="font-bold mb-3">
-                    News Title
+            <div class="group cursor-pointer">
+                <div class="w-full h-48 bg-slate-100 rounded-2xl mb-4 overflow-hidden">
+                    <div class="w-full h-full bg-slate-200 group-hover:scale-105 transition duration-500"></div>
+                </div>
+                <p class="text-yellow-600 text-sm font-medium mb-2">Activity</p>
+                <h3 class="font-bold text-lg text-slate-900 mb-2 group-hover:text-yellow-600 transition">
+                    คอนเสิร์ตประจำปีของสาขาวิชา
                 </h3>
-
-                <p class="text-gray-600">
-                    รายละเอียดข่าวสารและกิจกรรม
+                <p class="text-gray-500 text-sm line-clamp-2">
+                    ขอเชิญร่วมชมการแสดงความสามารถทางดนตรีของนักศึกษาในโครงการคอนเสิร์ตประจำปี
                 </p>
             </div>
 
-            <div class="border rounded-2xl p-6">
-                <h3 class="font-bold mb-3">
-                    News Title
+            <div class="group cursor-pointer">
+                <div class="w-full h-48 bg-slate-100 rounded-2xl mb-4 overflow-hidden">
+                    <div class="w-full h-full bg-slate-200 group-hover:scale-105 transition duration-500"></div>
+                </div>
+                <p class="text-yellow-600 text-sm font-medium mb-2">Academic</p>
+                <h3 class="font-bold text-lg text-slate-900 mb-2 group-hover:text-yellow-600 transition">
+                    โครงการอบรมเชิงปฏิบัติการทางดนตรี
                 </h3>
-
-                <p class="text-gray-600">
-                    รายละเอียดข่าวสารและกิจกรรม
+                <p class="text-gray-500 text-sm line-clamp-2">
+                    กิจกรรมพัฒนาศักยภาพนักศึกษาด้านการสอนและการจัดการเรียนรู้ทางดนตรี
                 </p>
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-<!-- FOOTER -->
-
-<footer class="bg-slate-950 text-white py-12">
-
+<footer class="bg-slate-950 text-white py-16 border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6">
-
-        <h3 class="text-2xl font-bold mb-4">
-            Western Music Education
-        </h3>
-
-        <p class="text-gray-400">
-            Faculty of Fine and Applied Arts
-        </p>
-
-        <p class="text-gray-400">
-            Rajamangala University of Technology Thanyaburi
-        </p>
-
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h3 class="text-3xl font-bold mb-2 text-white">
+                    Western Music Education
+                </h3>
+                <p class="text-yellow-400 font-medium mb-4">
+                    Faculty of Fine and Applied Arts
+                </p>
+                <p class="text-gray-400 text-sm">
+                    Rajamangala University of Technology Thanyaburi (RMUTT)<br>
+                    39 Moo 1, Klong 6, Khlong Luang, Pathum Thani 12110
+                </p>
+            </div>
+            <div class="md:text-right">
+                <div class="flex gap-4 md:justify-end mb-4">
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition cursor-pointer">FB</div>
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition cursor-pointer">IG</div>
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition cursor-pointer">YT</div>
+                </div>
+                <p class="text-gray-500 text-sm">&copy; 2026 Western Music Education RMUTT. All rights reserved.</p>
+            </div>
+        </div>
     </div>
-
 </footer>
 
 </body>
