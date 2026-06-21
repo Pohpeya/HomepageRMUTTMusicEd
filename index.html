@@ -32,20 +32,12 @@
     <div class="max-w-7xl mx-auto px-6">
         <div class="flex justify-between items-center h-20">
             <div>
-                <h1 class="text-white font-bold text-lg">
+                <h1 class="text-white font-bold text-lg tracking-wide cursor-pointer" onclick="window.scrollTo(0,0)">
                     Western Music Education
                 </h1>
                 <p class="text-yellow-400 text-sm">
                     Faculty of Fine and Applied Arts
                 </p>
-            </div>
-            <div class="hidden md:flex gap-8 text-white text-sm font-medium">
-                <a href="index.html" class="text-yellow-400">Home</a>
-                <a href="about.html" class="hover:text-yellow-400 transition">About Program</a>
-                <a href="curriculum.html" class="hover:text-yellow-400 transition">Curriculum</a>
-                <a href="faculty.html" class="hover:text-yellow-400 transition">Faculty</a>
-                <a href="news.html" class="hover:text-yellow-400 transition">News</a>
-                <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
             </div>
         </div>
     </div>
@@ -73,13 +65,18 @@
             </p>
         </div>
 
-        <div class="mt-12 flex flex-wrap gap-4">
-            <a href="#about" class="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3.5 rounded-full font-semibold transition shadow-lg shadow-yellow-500/30">
+        <div class="mt-12 flex flex-wrap items-center gap-3">
+            <a href="#about" class="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3 rounded-full font-bold transition shadow-lg shadow-yellow-500/30">
                 Explore Program
             </a>
-            <a href="curriculum.html" class="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-3.5 rounded-full hover:bg-white hover:text-black transition font-semibold">
-                Curriculum Structure
-            </a>
+            
+            <div class="h-8 w-px bg-white/30 hidden sm:block mx-2"></div>
+
+            <a href="about.html" class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-5 py-2.5 rounded-full hover:bg-white hover:text-black transition font-medium text-sm">About Program</a>
+            <a href="curriculum.html" class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-5 py-2.5 rounded-full hover:bg-white hover:text-black transition font-medium text-sm">Curriculum</a>
+            <a href="faculty.html" class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-5 py-2.5 rounded-full hover:bg-white hover:text-black transition font-medium text-sm">Faculty</a>
+            <a href="news.html" class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-5 py-2.5 rounded-full hover:bg-white hover:text-black transition font-medium text-sm">News</a>
+            <a href="contact.html" class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-5 py-2.5 rounded-full hover:bg-white hover:text-black transition font-medium text-sm">Contact</a>
         </div>
     </div>
 </section>
@@ -125,50 +122,46 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
-                <div class="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🎵</div>
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100 flex flex-col items-center text-center lg:items-start lg:text-left">
                 <h3 class="font-bold text-xl text-slate-900 mb-1">Music Performance</h3>
                 <h4 class="text-sm font-medium text-yellow-600 mb-4">ทักษะการปฏิบัติเครื่องดนตรี</h4>
                 <p class="text-gray-500 text-sm mb-3">
                     Develop exceptional skills in solo performance, musical ensembles, and professional stage performance.
                 </p>
-                <p class="text-gray-400 text-xs border-t pt-3">
+                <p class="text-gray-400 text-xs border-t pt-3 w-full">
                     พัฒนาทักษะการบรรเลงเดี่ยว การรวมวงดนตรี และบุคลิกภาพการแสดงบนเวทีอย่างมืออาชีพ
                 </p>
             </div>
 
-            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
-                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">📚</div>
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100 flex flex-col items-center text-center lg:items-start lg:text-left">
                 <h3 class="font-bold text-xl text-slate-900 mb-1">Music Education</h3>
                 <h4 class="text-sm font-medium text-blue-600 mb-4">ศาสตร์การสอนดนตรี</h4>
                 <p class="text-gray-500 text-sm mb-3">
                     Master modern pedagogy, learning management, and effective teaching methodologies in music.
                 </p>
-                <p class="text-gray-400 text-xs border-t pt-3">
+                <p class="text-gray-400 text-xs border-t pt-3 w-full">
                     เจาะลึกศาสตร์การสอนดนตรี จิตวิทยา และการจัดการเรียนรู้เพื่อเตรียมพร้อมสู่การเป็นครูยุคใหม่
                 </p>
             </div>
 
-            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
-                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🎧</div>
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100 flex flex-col items-center text-center lg:items-start lg:text-left">
                 <h3 class="font-bold text-xl text-slate-900 mb-1">Music Technology</h3>
                 <h4 class="text-sm font-medium text-purple-600 mb-4">เทคโนโลยีดนตรี</h4>
                 <p class="text-gray-500 text-sm mb-3">
                     Equip with practical skills in music production, sound recording, and digital media creation.
                 </p>
-                <p class="text-gray-400 text-xs border-t pt-3">
+                <p class="text-gray-400 text-xs border-t pt-3 w-full">
                     เรียนรู้การประยุกต์ใช้เทคโนโลยีดนตรี โปรแกรมทำเพลง การบันทึกเสียง และสื่อดิจิทัลแบบครบวงจร
                 </p>
             </div>
 
-            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100">
-                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🏫</div>
+            <div class="bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-2 transition duration-300 border border-slate-100 flex flex-col items-center text-center lg:items-start lg:text-left">
                 <h3 class="font-bold text-xl text-slate-900 mb-1">Professional Exp.</h3>
                 <h4 class="text-sm font-medium text-emerald-600 mb-4">ประสบการณ์วิชาชีพ</h4>
                 <p class="text-gray-500 text-sm mb-3">
                     Gain hands-on teaching experience through intensive professional internship programs.
                 </p>
-                <p class="text-gray-400 text-xs border-t pt-3">
+                <p class="text-gray-400 text-xs border-t pt-3 w-full">
                     สร้างเสริมประสบการณ์ตรงผ่านการฝึกปฏิบัติวิชาชีพและการฝึกสอนในสถานศึกษาจริง
                 </p>
             </div>
@@ -193,63 +186,63 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            <div class="group relative overflow-hidden rounded-[2rem] aspect-[3/4] cursor-pointer lg:row-span-2 lg:aspect-auto">
+            <div class="group relative overflow-hidden rounded-[1.5rem] aspect-[10/13] max-w-sm mx-auto w-full md:max-w-none cursor-pointer lg:row-span-2 lg:aspect-auto">
                 <img src="อ.ดร.อนันท์พร เอี่ยมชาญบรรจง ประธานหลักสูตร.jpg" alt="อ.ดร.อนันท์พร เอี่ยมชาญบรรจง" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent opacity-90 transition duration-500 group-hover:opacity-100"></div>
                 <div class="absolute bottom-0 left-0 p-8 w-full transform transition duration-500 group-hover:-translate-y-2">
                     <div class="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-lg">
                         ประธานหลักสูตร (Program Chair)
                     </div>
-                    <h3 class="text-white font-bold text-2xl mb-1">อ.ดร.อนันท์พร เอี่ยมชาญบรรจง</h3>
-                    <p class="text-gray-300 font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-4 group-hover:translate-y-0">
+                    <h3 class="text-white font-bold text-xl mb-1">อ.ดร.อนันท์พร เอี่ยมชาญบรรจง</h3>
+                    <p class="text-gray-300 font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-4 group-hover:translate-y-0 text-sm">
                         Dr. Ananporn Iamchanbanjong
                     </p>
                 </div>
             </div>
 
-            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+            <div class="group relative overflow-hidden rounded-[1.5rem] aspect-[5/6] max-w-sm mx-auto w-full md:max-w-none cursor-pointer">
                 <img src="ผศ.ดร.ถาวรดา จันทนะสุตร.jfif" alt="ผศ.ดร.ถาวรดา จันทนะสุตร" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
                 <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
                     <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
-                    <h3 class="text-white font-bold text-xl mb-1">ผศ.ดร.ถาวรดา จันทนะสุตร</h3>
-                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                    <h3 class="text-white font-bold text-lg mb-1">ผศ.ดร.ถาวรดา จันทนะสุตร</h3>
+                    <p class="text-gray-300 text-xs font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
                         Asst. Prof. Dr. Thawarada Chantanasutr
                     </p>
                 </div>
             </div>
 
-            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+            <div class="group relative overflow-hidden rounded-[1.5rem] aspect-[5/6] max-w-sm mx-auto w-full md:max-w-none cursor-pointer">
                 <img src="อ.ดร.เอกพล เหมือนแย้ม.jpg" alt="อ.ดร.เอกพล เหมือนแย้ม" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
                 <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
                     <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
-                    <h3 class="text-white font-bold text-xl mb-1">อ.ดร.เอกพล เหมือนแย้ม</h3>
-                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                    <h3 class="text-white font-bold text-lg mb-1">อ.ดร.เอกพล เหมือนแย้ม</h3>
+                    <p class="text-gray-300 text-xs font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
                         Dr. Ekkapol Muanyam
                     </p>
                 </div>
             </div>
 
-            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+            <div class="group relative overflow-hidden rounded-[1.5rem] aspect-[5/6] max-w-sm mx-auto w-full md:max-w-none cursor-pointer">
                 <img src="อ.ยุทธศักดิ์ พลายภู่.jpg" alt="อ.ยุทธศักดิ์ พลายภู่" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
                 <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
                     <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
-                    <h3 class="text-white font-bold text-xl mb-1">อ.ยุทธศักดิ์ พลายภู่</h3>
-                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                    <h3 class="text-white font-bold text-lg mb-1">อ.ยุทธศักดิ์ พลายภู่</h3>
+                    <p class="text-gray-300 text-xs font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
                         Mr. Yuttasak Plaipoo
                     </p>
                 </div>
             </div>
 
-            <div class="group relative overflow-hidden rounded-[2rem] aspect-[4/5] cursor-pointer">
+            <div class="group relative overflow-hidden rounded-[1.5rem] aspect-[5/6] max-w-sm mx-auto w-full md:max-w-none cursor-pointer">
                 <img src="อ.รัฐเขตต์ ช่วยสมบูรณ์.jpg" alt="อ.รัฐเขตต์ ช่วยสมบูรณ์" class="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent opacity-80 transition duration-500 group-hover:opacity-100"></div>
                 <div class="absolute bottom-0 left-0 p-6 w-full transform transition duration-500 group-hover:-translate-y-2">
                     <p class="text-yellow-400 text-xs font-semibold mb-1 tracking-wider uppercase">อาจารย์ประจำหลักสูตร</p>
-                    <h3 class="text-white font-bold text-xl mb-1">อ.รัฐเขตต์ ช่วยสมบูรณ์</h3>
-                    <p class="text-gray-300 text-sm font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
+                    <h3 class="text-white font-bold text-lg mb-1">อ.รัฐเขตต์ ช่วยสมบูรณ์</h3>
+                    <p class="text-gray-300 text-xs font-light opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
                         Mr. Rattakhet Chuaysomboon
                     </p>
                 </div>
